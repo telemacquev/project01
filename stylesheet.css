@@ -1,0 +1,79 @@
+div {
+    align-items: flex-start;
+}
+
+
+#heading {
+    width:70%;
+    height: auto;
+}
+
+#contact {
+    width: 40%;
+    height: 40px;
+}
+
+#intro {
+    width: 80%;
+    height: 70px;
+    padding-top: 0px;
+    border-style: none;
+    border-top: 3px double gold;
+}
+
+
+img {
+    width:200px;
+    height: 200px; 
+    transform: rotate(-10deg);
+    box-shadow: 10px 10px 5px gold;
+ 
+}
+
+#profile_picture {
+
+    position: absolute;
+    right: 55px;
+    top: 15px; 
+    z-index: -1;  
+    
+
+}
+
+
+
+.left, .right { 
+    display: inline-block;
+    margin: 12px 20px 12px 10px;
+    vertical-align:top;
+}
+
+.right { 
+    width:auto;
+
+  
+}
+
+.left{ 
+    width:100px;
+    height: 80px;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    border-style: none;
+    border-right: thick double gold;
+    padding: 2px 4px 3px 4px;
+}
+
+span {
+    font-weight: bold;
+    font-size:100%;
+}
+
+
+a:hover {
+     text-decoration:none;
+     background-color:gold;
+     color:#302013;
+     font-family: Cursive, Arial;
+}   
